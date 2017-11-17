@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xrevyvlerview.MainActivity">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:orientation="horizontal"
+     >
+   <EditText
+       android:id="@+id/ed"
+       android:layout_width="220dp"
+       android:layout_height="50dp" />
+   <Button
+       android:id="@+id/bt"
+       android:layout_width="wrap_content"
+       android:layout_height="50dp"
+       android:text="搜索"
+       />
+     <Button
+         android:id="@+id/bu1"
+         android:layout_width="wrap_content"
+         android:layout_height="50dp"
+         android:background="@drawable/grid_icon"
+         />
+
+
+ </LinearLayout>
+  <com.jcodecraeer.xrecyclerview.XRecyclerView
+      android:id="@+id/xview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"></com.jcodecraeer.xrecyclerview.XRecyclerView>
+
+</LinearLayout>
